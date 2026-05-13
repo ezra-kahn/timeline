@@ -2,9 +2,53 @@
 <html>
 <head>
   <meta name="timepath-verification" content="175ta79dhys7" />
-  <title>Ezra Kahn</title>
+  <title>Museum - Ezra Kahn</title>
 </head>
 <body>
-  <h1>Hello World</h1>
+  <iframe
+  id="3RdR9xf3uThCrxNB9Ig6"
+  width="100%"
+  height="600"
+  title="Timeline Museum Ezra Kahn"
+  src="https://embed.timepath.co/timeline/3RdR9xf3uThCrxNB9Ig6"
+  frameborder="0"
+  scrolling="yes"
+  allow="encrypted-media; clipboard-read; clipboard-write; fullscreen"
+  loading="lazy"
+></iframe>
+<script type="text/javascript">(function () {
+  var FRAME_ORIGIN = "https://embed.timepath.co";
+  var FRAME_ID = "3RdR9xf3uThCrxNB9Ig6";
+  var el = document.getElementById(FRAME_ID);
+  if (!el) return;
+
+  var raf = null;
+  function setHeight(px) {
+    if (raf) return;
+    raf = requestAnimationFrame(function () {
+      el.style.height = String(px) + "px";
+      raf = null;
+    });
+  }
+
+  function onMessage(e) {
+    if (!e || e.origin !== FRAME_ORIGIN) return;
+    var d = e.data && typeof e.data === "object" ? e.data : null;
+    if (!d || (d.timelineId || d.liveblogId) !== FRAME_ID) return;
+    var h = d.frameHeight;
+    if (typeof h === "number" && h > 0 && h < 100000) setHeight(h);
+  }
+
+  window.addEventListener("message", onMessage);
+
+  el.addEventListener("load", function () {
+    try {
+      el.contentWindow && el.contentWindow.postMessage(
+        { parentUrl: window.location.href, timelineId: FRAME_ID, v: "2.0" },
+        FRAME_ORIGIN
+      );
+    } catch (err) {}
+  }, { once: true });
+})();</script>
 </body>
 </html>
