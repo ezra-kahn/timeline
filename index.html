@@ -1,54 +1,114 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta name="timepath-verification" content="175ta79dhys7" />
   <title>Museum - Ezra Kahn</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-  <iframe
-  id="3RdR9xf3uThCrxNB9Ig6"
-  width="100%"
-  height="600"
-  title="Timeline Museum Ezra Kahn"
-  src="https://embed.timepath.co/timeline/3RdR9xf3uThCrxNB9Ig6"
-  frameborder="0"
-  scrolling="yes"
-  allow="encrypted-media; clipboard-read; clipboard-write; fullscreen"
-  loading="lazy"
-></iframe>
-<script type="text/javascript">(function () {
-  var FRAME_ORIGIN = "https://embed.timepath.co";
-  var FRAME_ID = "3RdR9xf3uThCrxNB9Ig6";
-  var el = document.getElementById(FRAME_ID);
-  if (!el) return;
-
-  var raf = null;
-  function setHeight(px) {
-    if (raf) return;
-    raf = requestAnimationFrame(function () {
-      el.style.height = String(px) + "px";
-      raf = null;
-    });
-  }
-
-  function onMessage(e) {
-    if (!e || e.origin !== FRAME_ORIGIN) return;
-    var d = e.data && typeof e.data === "object" ? e.data : null;
-    if (!d || (d.timelineId || d.liveblogId) !== FRAME_ID) return;
-    var h = d.frameHeight;
-    if (typeof h === "number" && h > 0 && h < 100000) setHeight(h);
-  }
-
-  window.addEventListener("message", onMessage);
-
-  el.addEventListener("load", function () {
-    try {
-      el.contentWindow && el.contentWindow.postMessage(
-        { parentUrl: window.location.href, timelineId: FRAME_ID, v: "2.0" },
-        FRAME_ORIGIN
-      );
-    } catch (err) {}
-  }, { once: true });
-})();</script>
+  <div class="section-container">
+    <section class="title-section">
+      <h1>Black and White: How Imagery Constructed Race in America</h1>
+      <p>A Virtual Exhibition by Ezra Kahn</p>
+    </section>
+    <section class="">
+      <h1>Introduction</h1>
+      <p>Race is not a law of nature; it is a human construction. Race is the thread that has sewn the soft, cotton fabric of the United States of America–the blanket that has been used for comfort, and for suffocation. Race in America has been abhorrently woven for over 400 years, during which Black bodies have often been the thread of choice. The contrast between “Black” skin and “White” skin made the perfect ingredient for the creation of an untrue binary. But Blackness is not truly the color of the night sky, and Whiteness is not the color of the clouds. The story of the United States is the story of how this shroud was fabricated. 
+        <br><br>
+        The issue of race is that it is so tightly bound to racism, knotted, like two orbiting stars. The praising of race leaves little room for error so as not to become the praising of racism. On the contrary, the denial of race, the pretending not to see the system at all, is a pretentious embrace of privilege; An embrace that does no service to the victims of the harsh, violent, and intrusive everpresence of racism; To do so only absolves the conscience of the racial denier. As race shall neither be denied nor enjoyed, then race must be observed–understood. To learn the inner workings of race is to absorb history and its teachings, and to know race–and its shallowness–is to terrorize racism. 
+        <br><br>
+        Race is born in imagery. Imagery can be made to alter race. And just as often as race is created intentionally, race can be constructed unintentionally. It is important to consider intention alongside side effects. This museum will examine the shaping of race through the lens of imagery.  
+        </p>
+    </section>
+    <section class="">
+      <h1>1619: Arrival of the First Slave Ship to the American Colonies</h1>
+      <p>In late August of the year 1619, the White Lion, an English privateer ship, lands near Point Comfort. Aboard the ship are “20 and odd” enslaved Angolans that were taken from the Spanish San Juan Bautista, the first enslaved Africans to be brought to the British colonies of America (“1619: African”).</p>
+    </section>
+    <section class="split-section">
+      <div>
+        <h1>Runaway Slave Ads</h1>
+        <p>Oftentimes, ads for lost pets–a cat or a small dog–can be found affixed to wooden telephone polls; runaway slave ads were tragically reminiscent in their dehumanizing and petlike characterizations of people escaping slavery. Slaveholders posted runaway slave ads–often in newspapers–during the 18th and 19th centuries in hopes that the descriptions would aid the capture of those who had escaped from enslavement. Describing an escaped “Negro fellow” named Jack, this ad was posted on the 19th of March, 1767, in the Virginia Gazette, a newspaper. The writer, one Charles Mason, perhaps a slaveholder or agent to one, enumerates characteristics of Jack’s general appearance but also elaborates on almost endearing aspects, such as Jack’s “very agreeable countenance” and the “dimple in each cheek” when he smiles. These paternalistic accounts portray Jack like a child, demonstrating an ingrained condescension toward the enslaved by slaveholders. At the same time, a “piece taken out of one ear,” professedly “by accident,” implies Jack lacked physical safety–likely a component in his decision to escape–and alludes to the greater physical abuses of slavery (“Virginia Runaway”).</p>
+      </div>
+      <div class="primary">
+        <p>… a likely [good-looking] Virginia born Negro fellow named JACK, about 5 feet 9 inches high, about 28 years old, of a very black complexion, broad faced, very broad teeth, of a very agreeable countenance, and when he smiles has a dimple in each cheek; his hair trimmed to a roll and by frequent combing has grown to a prodigious length; his feet are remarkably large, and has by accident had a small piece taken out of one ear, but which I cannot recollect. . . He is a very ingenious fellow, can do cooper’s work [make wooden barrels], and is supposed to have a pass from some villainous person or other, and will endeavour to pass as a freeman; and as he is a sensible arch [crafty] fellow, probably he will attempt to make his escape from off this continent. . . 
+          Charles Mason, VG, 19 March 1767</p>  
+      </div>
+    </section>
+    <section class="split-section">
+      <div>
+        <h1>The “Brookes” Slave Ship</h1>
+        <p>While this image asked for abolition, it sacrificed Black individuality. This diagram was designed in Plymouth, Massachusetts, and published by the Plymouth Chapter of the Society for Effecting the Abolition of the Slave Trade in December 1788 (“The Brookes”). Featured are illustrations of the Brookes, a slave ship, from different sides. Prominent in the center, a top-down cross-section depicts countless black figures inhumanely packed like sand across the boat's entire floor. A side view (Fig. III) reveals multiple floors of people lying in this fashion, without any space to sit up (“The Slave”). The viewer is separated from the victims of this transport in this drawing, which became the most widely reproduced image of the Middle Passage by abolitionists. Perhaps it is the separation that made this image so popular, as the viewer is left to deplore slavery in a distant way, which would be unlikely if they were made to feel guilty (“The Brookes”). Despite this image's profound role in the spread of abolitionism, it relies on the portrayal of enslaved Africans as docile–a false image. The kind of abolitionist attitude that this image creates is not based upon belief in equality and mutual strength, but rather upon Black inferiority and weakness.</p>
+      </div>
+      <div class="primary" style="min-width: 40vw">
+        <img src="images/brookes.jpg" alt="The Brookes Slave Ship" />
+        <p>This is an image caption</p>
+      </div>
+    </section>
+    <section>
+      <h1>1790: Naturalization Act</h1>
+      <p>Congress passes the Naturalization (or Nationality) Act of 1790, limiting citizenship by naturalization to “being a free white person.” This act creates the “white” race at the federal level, and its restrictions persist in some form until 1952 (“Nationality Act”).</p>
+    </section>
+    <section class="split-section">
+      <div>
+        <h1>Jim Crow</h1>
+        <p>“Jim Crow,” a term that has come to be associated with an era of racial segregation, has embodied multiple meanings rooted in the oppression of Black Americans. “Jim Crow” was popularized in the late 1820s and 1830s as a character played by Thomas D. Rice, the “Father of American minstrelsy.” Rice was one of the first blackface performers, rubbing burnt cork on his face as a racist exaggeration. By 1838, “Jim Crow” was also used as a derogatory term for African Americans (“Who Was”).  Pictured is a drawing of “Jim Crow,” Rice’s mocking depiction of an enslaved Black man. Contorted limbs and ragged clothing, paired with wide white eyes accentuated by his blackface, create a creepy, insane-looking figure. As minstrel shows across the country were inspired by this hateful image of blackness, using “Jim Crow” as a model for entertainment (“Blackface”). This portrayal of a black-skinned man, messy and seemingly not in control of his own body, perpetuated ideas that African Americans are lazy, stupid, and even non-human. By the end of the century, “Jim Crow” came to refer to “Black Codes” that robbed Black people of their rights, after the character shaped beliefs that African Americans were unworthy of integration (“Who Was”).
+        </p>
+      </div>
+      <div class="primary">
+        <img src="images/jimcrow.jpg" alt="The Original Jim Crow"/>
+      </div>
+    </section>
+    <section>
+      <h1>1861-1865 (1870): American Civil War and Reconstruction Amendments</h1>
+      <p>content</p>
+    </section>
+    <section class="split-section">
+      <div>
+        <h1>The Birth of a Nation</h1>
+        <p>One film, widely considered to be the most racist film ever produced, was viewed by millions of Americans and was screened in both the White House and the Supreme Court. Thomas Dixon Jr., a White man born in 1864, grew up in North Carolina after the Civil War. Dixon despised what he saw as an unfairly treated South, which in his mind was being taken over by African Americans, leading him to create a motion picture, The Birth of a Nation, 1915, to tell his version of a story that President Wilson called “so terribly true” (Franklin, John Hope). Throughout the film, the KKK is portrayed as heroes of the South. In part of the movie, a White family is portrayed defending their cabin against men in blackface, intended to show African Americans looking for revenge. During the fighting, the face of a White girl crying is juxtaposed with the cruel, smiling faces of the blackface depictions. This contrast intends to invoke pity for White Southern victims of supposed attacks by African Americans (“D.W. Griffith’s”). This film’s publication coincided with a resurgence of the KKK, demonstrating how its racist imagery provoked racist action (Franklin, John Hope).</p>
+      </div>
+      <div class="primary">
+        <iframe style="min-height: 25vw;" width="560" height="315" src="https://www.youtube.com/embed/BoMgMzizDNU?si=0of4vgMqKfKmg5Cv?controls=0&disablekb=1&fs=0&modestbranding=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </section>
+    <section>
+      <h1>1939-1945  World War II</h1>
+      <p>content</p>
+    </section>
+    <section class="split-section">
+      <div>
+        <h1>“I have a dream” Speech</h1>
+        <p>One of the most immediately recognizable speeches in the world, Dr. Martin Luther King Jr.’s speech at Washington on August 28th, 1963, was profound for numerous reasons. Crowds of Black and White, men, women, and children can be seen filling the audience as King stands in front of them. The outstanding crowd is a strong presentation of unity and power. As King calls for the end of racism, segregation, and the unjust treatment of Black Americans, his figure provides a striking image with the Lincoln Memorial as his backdrop. He repeats the phrase “I have a dream” as the crowd cheers. He connects his message to his children, who he wants to “not be judged by the color of their skin but by the content of their character." In doing so, he makes his speech universal, as children and love for children is universal. King speaks of unity and an African American people that will “free one day.” His message is inclusive and inspiring. He positions African American freedom as a goal that should motivate all, a goal that does not come with compromise from White people, but rather brings a better future for all (“Martin Luther King”).</p>
+      </div>
+      <div class="primary" >
+        <iframe style="min-height: 25vw;" width="560" height="315" src="https://www.youtube.com/embed/smEqnnklfYs?si=0of4vgMqKfKmg5Cv?controls=0&disablekb=1&fs=0&modestbranding=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </section>
+    <section>
+      <h1>1964-1965 Civil Rights Act and Voting Rights Act</h1>
+      <p>content</p>
+    </section>
+    <section class="split-section">
+      <div>
+        <h1>The killing of George Floyd by Derek Chauvin</h1>
+        <p>On May 25th, 2020, George Floyd was killed during an arrest in Minneapolis by former police officer Derek Chauvin. Chauvin held his knee against Floyd’s neck, dressed in his blue officer uniform, pressing Floyd into the pavement for more than nine minutes as he told the officers he could not breathe (“George Floyd: What”; “George Floyd Neck”). After telling officers twenty times that he was unable to breathe, he appeared to go unconscious (“George Floyd: What”). In the photograph, his face is against the ground, his eyes appear shut, and he seems immobile. The officer glances out toward the camera, watching him commit a violent crime. (“George Floyd Neck”) The image of Floyd is an important representation of police brutality in modern America. We live in a country where Black men can be murdered in public by police. Officer Chauvin, who killed Floyd, was later charged with murder. Floyd was a devoted Christian, by all accounts a good man, and he died at 46 (“George Floyd: What”).</p>
+      </div>
+      <div class="primary" =>
+        <img src="images/georgefloyd.png" alt="Officer Derek Chauvin kneeling on George Floyd's kneck">
+      </div>
+    </section>
+    <section>
+      <h1>Conclusion</h1>
+      <p>content</p>
+    </section>
+    <section>
+      <h1>Sources</h1>
+      <p>content</p>
+    </section>
+  </div>
+  <div class="timeline"><div class="progress"></div></div>
+  <script src="js/index.js"></script>
 </body>
 </html>
