@@ -128,7 +128,6 @@ h1 {
     margin: auto;
 }
 
-.primary span {
-    color: gainsboro;
-    margin-top: 10px;
+.primary img + p, .primary iframe + p {
+    margin-top: 40px;
 }
